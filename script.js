@@ -139,13 +139,15 @@ function checkAnswer() {
 function nextStanza() {
     loadStanza();
 }
-
+function refreshPage() {
+            location.reload();
 function showReward() {
     const phraseContainer = document.getElementById('phrase-container');
     phraseContainer.innerHTML = `
         <h2>¡Felicidades! Has completado el himno completo</h2>
         <p>Gracias por participar. Aquí tienes un obsequio:</p>
         <img src="https://cdn-icons-png.flaticon.com/512/6303/6303576.png" alt="Premio" style="width:200px; height:auto;">
+        <button onclick="refreshPage()">Volver a intentarlo</button>
     `;
     document.getElementById('score').innerText = `Puntuación final: ${score}`;
 }
