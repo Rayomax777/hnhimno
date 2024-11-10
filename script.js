@@ -72,7 +72,7 @@ const stanzas = [
     ],
     [
         { text: "Por guardar ese emblema ...", missingWord: "divino" },
-        { text: "marcharemos¡Oh patria!a la ...", missingWord: "muerte" },
+        { text: "marcharemos ¡Oh patria! a la ...", missingWord: "muerte" },
         { text: "generosa será nuestra ...", missingWord: "suerte" },
         { text: "si morimos pensando en tu ...", missingWord: "amor" },
         { text: "Defendiendo tu santa ...", missingWord: "bandera" },
