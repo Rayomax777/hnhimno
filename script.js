@@ -139,8 +139,6 @@ function checkAnswer() {
 function nextStanza() {
     loadStanza();
 }
-function refreshPage() {
-            location.reload();
 function showReward() {
     const phraseContainer = document.getElementById('phrase-container');
     phraseContainer.innerHTML = `
